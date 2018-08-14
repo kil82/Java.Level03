@@ -14,7 +14,7 @@ public class Main {
             connect();
             initDb();
             scanner = new Scanner(System.in);
-            System.out.println("Для выхода из программы наберите команду: конец");
+            System.out.println("Для выхода из программы  наберите  команду:   конец");
             loop:
             while (true) {
                 String[] newCommand = scanner.nextLine().split(" ");
