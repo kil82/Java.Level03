@@ -1,0 +1,4 @@
+2_5
+Последовательно сшить 5 файлов в один (файлы примерно 100 байт). 
+Может пригодиться следующая конструкция: ArrayList<InputStream> al = new ArrayList<>(); 
+... Enumeration<InputStream> e = Collections.enumeration(al);
